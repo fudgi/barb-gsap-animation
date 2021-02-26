@@ -17,7 +17,6 @@ a {
 }
 
 .top {
-  /* width: 50%; */
   display: flex;
   justify-content: center;
 }
@@ -35,7 +34,12 @@ main,
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background: linear-gradient(45deg, blue, red); */
+}
+.main{
+  z-index: 5;
+}
+.main1{
+  z-index: 0;
 }
 
 .fullscreen1 {

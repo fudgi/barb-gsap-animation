@@ -14,7 +14,7 @@
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body data-barba="wrapper">
-    <main class="main" data-barba="container" data-barba-namespace="page2">
+    <main class="main main1" data-barba="container" data-barba-namespace="page2">
       <div class="fullscreen fullscreen1">
         <div class="items">
           <div class="top">
@@ -24,41 +24,6 @@
             <a href="./barb.html">asdsadasda</a>
           </div>
         </div>
-      </div>
-
-      <div class="svg">
-        <svg
-          class="demo"
-          xmlns="http://www.w3.org/2000/svg"
-          width="100%"
-          height="100%"
-          viewBox="0 0 100 100"
-          preserveAspectRatio="xMidYMid slice"
-        >
-          <defs>
-            <mask id="theMask">
-              <rect width="100%" height="100%" fill="white" />
-              <circle id="circle" cx="50" cy="50" r="100" fill="black" />
-              <circle id="circle1" cx="50" cy="50" r="10" fill="black" />
-              <circle id="circle2" cx="50" cy="50" r="10" fill="black" />
-            </mask>
-            <linearGradient id="lgrad" x1="0%" y1="100%" x2="100%" y2="0%">
-              <stop offset="0%" stop-color="blue" stop-opacity="1" />
-              <stop offset="100%" stop-color="red" stop-opacity="1" />
-            </linearGradient>
-          </defs>
-
-          <g id="toBeRevealed" mask="url(#theMask)">
-            <rect
-              id="theSquare"
-              x="0"
-              y="0"
-              width="100"
-              height="100"
-              fill="url('#lgrad')"
-            />
-          </g>
-        </svg>
       </div>
     </main>
     <script src="./script.js"></script>
